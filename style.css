@@ -1,7 +1,11 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 10;
+  padding: 10;
 }
 body {
+<<<<<<< HEAD
   background-color: rgb(15, 15, 225);
+=======
+  background-color: blue;
+>>>>>>> mynewbranch
 }
