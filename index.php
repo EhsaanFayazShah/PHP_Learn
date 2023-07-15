@@ -126,9 +126,71 @@ $marks = [
         "PHP " => 80
     ]
 ];
-echo "<pre>";
-print_r($marks);
-echo "</pre>";
+// echo "<pre>";
+// print_r($marks);
+// echo "</pre>";
+echo "<table border='2px' cellpadding='5px' cellspacing='0'>";
+echo "<tr>
+<th>Name</th>
+<th>Java</th>
+<th>Php</th>
+<th>JS</th>
+</tr>";
+foreach ($marks as $key => $value) {
+    echo "<tr>
+    <td>$key</td>";
+    foreach ($value as $val) {
+        echo "<td> $val </td>";
+    }
+    echo "</tr>";
+}
+echo "</table>";
+
+
+
+$multi_arr = [
+    [
+        1, "Ehsaan", "Student", "2000"
+    ],
+    [
+        2, "Adnan", "Student", "2000"
+    ],
+    [
+        3, "Danish", "Salesman", "2000"
+    ],
+    [
+        4, "Sufaira", "Govt. Employee", "20000"
+    ],
+];
+echo "<table border ='2px' cellspacing=0 cellpadding='5px'>";
+echo "<tr>
+<th>Id</th>
+<th>Name</th>
+<th>profession</th>
+<th>Salary</th>
+</tr>";
+foreach ($multi_arr as list($id, $name, $profession, $salary)) {
+    echo "<tr> <td> $id</td> <td> $name </td><td>$profession </td><td>$salary </td> </tr>";
+}
+// echo "</tr>";
+echo "</table>";
+// array_count_values($marks['$farhan']);
+echo count($marks['farhan']);
+
+// phpinfo();
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ?>
