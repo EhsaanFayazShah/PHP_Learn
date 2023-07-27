@@ -24,10 +24,10 @@
         <!-- Slides -->
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/image2.jpg" alt="Image 1">
+                <img src="images/image1.jpg" alt="Image 1">
             </div>
             <div class="carousel-item">
-                <img src="images/food.jpg" alt="Image 2">
+                <img src="images/image2.jpg" alt="Image 2">
             </div>
             <div class="carousel-item">
                 <img src="images/image3.jpg" alt="Image 3">
@@ -36,13 +36,13 @@
                 <img src="images/image4.jpg" alt="Image 3">
             </div>
             <div class="carousel-item">
-                <img src="images/image4.jpg" alt="Image 3">
+                <img src="images/image5.jpg" alt="Image 3">
             </div>
             <div class="carousel-item">
-                <img src="images/image4.jpg" alt="Image 3">
+                <img src="images/image6.jpg" alt="Image 3">
             </div>
             <div class="carousel-item">
-                <img src="images/image4.jpg" alt="Image 3">
+                <img src="images/image7.jpg" alt="Image 3">
             </div>
             <!-- Add more slides as needed -->
         </div>
