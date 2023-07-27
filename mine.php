@@ -33,7 +33,16 @@
                 <img src="images/image3.jpg" alt="Image 3">
             </div>
             <div class="carousel-item">
-                <img src="images/image3.jpg" alt="Image 3">
+                <img src="images/image4.jpg" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="images/image4.jpg" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="images/image4.jpg" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="images/image4.jpg" alt="Image 3">
             </div>
             <!-- Add more slides as needed -->
         </div>
